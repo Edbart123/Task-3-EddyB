@@ -4,7 +4,7 @@
 
 This project was completed as part of the DecodeLabs Data Science Internship Program.
 
-The objective of this project was to analyze data using SQL queries and relational database concepts. The project demonstrates how SQL can be used to retrieve, filter, sort, group, and summarize data to generate meaningful insights.
+The objective of this project was to analyze data using SQL queries and relational database concepts. The project demonstrates how SQL can be used to retrieve, filter, sort, group, and summarize data to generate meaningful business insights.
 
 ## Dataset Summary
 
@@ -23,27 +23,27 @@ The project uses a structured dataset stored in both CSV and SQLite database for
 
 * SQL
 * SQLite
-* Python
-* Jupyter Notebook
+* DB Browser for SQLite
 * CSV Dataset
+* Database Analytics
 
 ## Technologies
 
 * SQL
-* SQLite Database
+* SQLite
+* Relational Databases
 * Data Analysis
 * Database Management
-* Query Optimization
 
 ## Project Files
 
 * dataset_week3.csv
 * week3_data_analytics.db
-* Week3_Part1_WHERE.png
-* Week3_Part2_ORDERBY.png
-* Week3_Part3_GROUPBY_COUNT.png
-* Week3_Part4_AVG.png
-* Week3_Part5_SUM.png
+* sql_where_clause.png
+* sql_order_by.png
+* sql_group_by_count.png
+* sql_avg_function.png
+* sql_sum_function.png
 
 ## Skills Demonstrated
 
@@ -59,23 +59,23 @@ The project uses a structured dataset stored in both CSV and SQLite database for
 
 ### WHERE Clause
 
-![WHERE Query](Week3_SQL_Project/Week3_Part1_WHERE.png)
+![WHERE Query](Week3_SQL_Project/sql_where_clause.png)
 
 ### ORDER BY
 
-![ORDER BY Query](Week3_SQL_Project/Week3_Part2_ORDERBY.png)
+![ORDER BY Query](Week3_SQL_Project/sql_order_by.png)
 
 ### GROUP BY and COUNT
 
-![GROUP BY Query](Week3_SQL_Project/Week3_Part3_GROUPBY_COUNT.png)
+![GROUP BY Query](Week3_SQL_Project/sql_group_by_count.png)
 
 ### AVG Function
 
-![AVG Query](Week3_SQL_Project/Week3_Part4_AVG.png)
+![AVG Query](Week3_SQL_Project/sql_avg_function.png)
 
 ### SUM Function
 
-![SUM Query](Week3_SQL_Project/Week3_Part5_SUM.png)
+![SUM Query](Week3_SQL_Project/sql_sum_function.png)
 
 ## Results
 
@@ -83,11 +83,11 @@ The project successfully demonstrated key SQL concepts used in real-world data a
 
 Key outcomes included:
 
-* Filtering records with WHERE clauses
+* Filtering records using WHERE clauses
 * Sorting data using ORDER BY
 * Grouping records using GROUP BY
 * Calculating summary statistics using COUNT, AVG, and SUM
-* Generating meaningful insights from structured data
+* Generating insights from structured datasets
 
 ## What I Learned
 
