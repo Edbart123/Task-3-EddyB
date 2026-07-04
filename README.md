@@ -1,101 +1,76 @@
-# DecodeLabs Week 3 - SQL Data Analysis Project
+# SQL Data Analysis Project — DecodeLabs Week 3
 
-## Project Overview
+## Overview
+Analyzed a structured dataset using SQL to extract business insights through 
+filtering, sorting, grouping, and aggregation. This project simulates the 
+core analytical workflow a data analyst performs when exploring a relational 
+database to answer business questions.
 
-This project was completed as part of the DecodeLabs Data Science Internship Program.
+**Tools:** SQL · SQLite · DB Browser for SQLite
 
-The objective of this project was to analyze data using SQL queries and relational database concepts. The project demonstrates how SQL can be used to retrieve, filter, sort, group, and summarize data to generate meaningful business insights.
+---
 
-## Dataset Summary
+## Business Questions Explored
+- Which records meet specific criteria? (filtering with WHERE)
+- How does the data rank when sorted by key metrics? (ORDER BY)
+- What are the counts across different categories? (GROUP BY + COUNT)
+- What are the average and total values across the dataset? (AVG, SUM)
 
-The project uses a structured dataset stored in both CSV and SQLite database formats. SQL queries were performed to explore the data, identify trends, and generate analytical results.
+---
 
-## Objectives
+## Key SQL Queries
 
-* Query data using SQL
-* Filter records using WHERE clauses
-* Sort results using ORDER BY
-* Group data using GROUP BY
-* Calculate aggregate values using COUNT, AVG, and SUM
-* Generate insights from structured datasets
+### Filtering records with WHERE
+Isolated specific subsets of data to focus analysis on relevant segments.
 
-## Tools Used
+![WHERE Clause](Week3_SQL_Project/sql_where_clause.png)
 
-* SQL
-* SQLite
-* DB Browser for SQLite
-* CSV Dataset
-* Database Analytics
+### Ranking results with ORDER BY
+Sorted records by key fields to identify top and bottom performers.
 
-## Technologies
+![ORDER BY](Week3_SQL_Project/sql_order_by.png)
 
-* SQL
-* SQLite
-* Relational Databases
-* Data Analysis
-* Database Management
+### Category breakdown with GROUP BY + COUNT
+Grouped records by category to understand distribution across the dataset.
+
+![GROUP BY COUNT](Week3_SQL_Project/sql_group_by_count.png)
+
+### Averages with AVG
+Calculated mean values to establish baselines and identify outliers.
+
+![AVG Function](Week3_SQL_Project/sql_avg_function.png)
+
+### Totals with SUM
+Aggregated values to quantify overall volume and compare across groups.
+
+![SUM Function](Week3_SQL_Project/sql_sum_function.png)
+
+---
+
+## What I Demonstrated
+- Writing and executing SQL queries against a relational database
+- Filtering, sorting, and grouping structured data
+- Using aggregate functions (COUNT, AVG, SUM) to summarize datasets
+- Drawing analytical conclusions from query results
+- Managing a SQLite database using DB Browser
+
+---
 
 ## Project Files
+| File | Description |
+|------|-------------|
+| `dataset_week3.csv` | Raw dataset used for analysis |
+| `week3_data_analytics.db` | SQLite database file |
+| `sql_where_clause.png` | WHERE clause query + result |
+| `sql_order_by.png` | ORDER BY query + result |
+| `sql_group_by_count.png` | GROUP BY + COUNT query + result |
+| `sql_avg_function.png` | AVG function query + result |
+| `sql_sum_function.png` | SUM function query + result |
 
-* dataset_week3.csv
-* week3_data_analytics.db
-* sql_where_clause.png
-* sql_order_by.png
-* sql_group_by_count.png
-* sql_avg_function.png
-* sql_sum_function.png
-
-## Skills Demonstrated
-
-* SQL Query Writing
-* Database Analysis
-* Data Retrieval
-* Data Aggregation
-* Data Filtering
-* Relational Database Management
-* Problem Solving
-
-## SQL Queries Demonstrated
-
-### WHERE Clause
-
-![WHERE Query](Week3_SQL_Project/sql_where_clause.png)
-
-### ORDER BY
-
-![ORDER BY Query](Week3_SQL_Project/sql_order_by.png)
-
-### GROUP BY and COUNT
-
-![GROUP BY Query](Week3_SQL_Project/sql_group_by_count.png)
-
-### AVG Function
-
-![AVG Query](Week3_SQL_Project/sql_avg_function.png)
-
-### SUM Function
-
-![SUM Query](Week3_SQL_Project/sql_sum_function.png)
-
-## Results
-
-The project successfully demonstrated key SQL concepts used in real-world data analysis.
-
-Key outcomes included:
-
-* Filtering records using WHERE clauses
-* Sorting data using ORDER BY
-* Grouping records using GROUP BY
-* Calculating summary statistics using COUNT, AVG, and SUM
-* Generating insights from structured datasets
-
-## What I Learned
-
-Through this project, I strengthened my SQL and database analysis skills by working with structured datasets and performing analytical queries. I learned how to retrieve, organize, summarize, and analyze data using SQL techniques commonly used by data analysts and database professionals.
+---
 
 ## Author
-
-**Eddy Bartolome**
-
-* GitHub: https://github.com/Edbart123
-* DecodeLabs Data Science Internship Program
+**Eddy Bartolome**  
+Data Analyst | Python · SQL · Power BI · Excel  
+[LinkedIn](https://www.linkedin.com/in/eddybartolome) · 
+[GitHub](https://github.com/Edbart123)
