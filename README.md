@@ -1,10 +1,7 @@
 # SQL Data Analysis Project — DecodeLabs Week 3
 
 ## Overview
-Analyzed a structured dataset using SQL to extract business insights through 
-filtering, sorting, grouping, and aggregation. This project simulates the 
-core analytical workflow a data analyst performs when exploring a relational 
-database to answer business questions.
+Analyzed a structured retail sales dataset using SQL to extract business insights through filtering, sorting, grouping, and aggregation. This project simulates the core analytical workflow a data analyst performs when exploring a relational database to answer business questions.
 
 **Tools:** SQL · SQLite · DB Browser for SQLite
 
